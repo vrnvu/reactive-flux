@@ -1,4 +1,4 @@
-package com.github.vrnvu.internal;
+package com.github.vrnvu.internal.async;
 
 import reactor.core.publisher.BufferOverflowStrategy;
 import reactor.core.publisher.Flux;
