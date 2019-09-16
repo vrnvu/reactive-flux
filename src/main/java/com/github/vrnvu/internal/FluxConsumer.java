@@ -1,3 +1,5 @@
+package com.github.vrnvu.internal;
+
 import reactor.core.publisher.Mono;
 
 import java.util.concurrent.CompletableFuture;

@@ -1,3 +1,5 @@
+package com.github.vrnvu.internal;
+
 import reactor.core.publisher.BufferOverflowStrategy;
 import reactor.core.publisher.Flux;
 
@@ -5,7 +7,6 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Consumer;
 
 public class FluxProducer {
-
     private Consumer<Integer> nextConsumer;
     private Consumer<Throwable> errorsConsumer;
 
@@ -46,5 +47,4 @@ public class FluxProducer {
     public void onError(Consumer<Throwable> errorsConsumer) {
         this.errorsConsumer = errorsConsumer;
     }
-
 }
